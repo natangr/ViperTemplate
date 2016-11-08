@@ -36,7 +36,7 @@ class ___FILEBASENAME___Router: ___FILEBASENAME___Wireframe {
         
         interactor.output = presenter
         
-        self.view?.present(coreViewController, animated: true, completion: nil)
+        self.view?.present(view, animated: true, completion: nil)
     }
     */
 }
