@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import UIKit
 
 
 class ___FILEBASENAME___Interactor: ___FILEBASENAME___UseCase {
