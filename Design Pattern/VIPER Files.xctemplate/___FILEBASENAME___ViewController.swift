@@ -21,7 +21,7 @@ class ___FILEBASENAME___ViewController: BaseViewController, ___FILEBASENAME___Vi
         super.viewDidLoad()
     }
     
-   // MARK: ___FILEBASENAME___View protocol
+    // MARK: ___FILEBASENAME___View protocol
     
     
 }
