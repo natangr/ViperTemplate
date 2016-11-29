@@ -9,13 +9,14 @@
 import Foundation
 
 
-class ___FILEBASENAME___Interactor: ___FILEBASENAME___UseCase {
-    
+class ___FILEBASENAME___Interactor {
+
     // MARK: Properties
-    
+
     weak var output: ___FILEBASENAME___InteractorOutput?
-    
-    // MARK: ___FILEBASENAME___UseCase protocol
-    
-    
+}
+
+
+extension ___FILEBASENAME___Interactor: ___FILEBASENAME___UseCase {
+
 }

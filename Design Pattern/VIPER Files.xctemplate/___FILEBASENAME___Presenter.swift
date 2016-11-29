@@ -9,15 +9,21 @@
 import Foundation
 
 
-class ___FILEBASENAME___Presenter: ___FILEBASENAME___Presentation, ___FILEBASENAME___InteractorOutput {
-    
+class ___FILEBASENAME___Presenter {
+
     // MARK: Properties
-    
+
     weak var view: ___FILEBASENAME___View?
     var router: ___FILEBASENAME___Wireframe?
     var interactor: ___FILEBASENAME___UseCase?
-    
-    // MARK: ___FILEBASENAME___Presentation protocol
-    
-    
+}
+
+
+extension ___FILEBASENAME___Presenter: ___FILEBASENAME___Presentation {
+
+}
+
+
+extension ___FILEBASENAME___Presenter: ___FILEBASENAME___InteractorOutput {
+
 }

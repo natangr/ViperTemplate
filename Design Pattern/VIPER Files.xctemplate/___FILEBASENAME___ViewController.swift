@@ -10,18 +10,19 @@ import Foundation
 
 
 class ___FILEBASENAME___ViewController: BaseViewController, ___FILEBASENAME___View {
-    
+
     // MARK: Properties
-    
+
     var presenter: ___FILEBASENAME___Presentation?
-    
+
     // MARK: Lifecycle
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    
-    // MARK: ___FILEBASENAME___View protocol
-    
-    
+}
+
+
+extension ___FILEBASENAME___ViewController: ___FILEBASENAME___View {
+  
 }
