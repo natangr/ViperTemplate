@@ -9,7 +9,7 @@
 import Foundation
 
 
-class ___FILEBASENAME___ViewController: BaseViewController, ___FILEBASENAME___View {
+class ___FILEBASENAME___ViewController: BaseViewController {
 
     // MARK: Properties
 
@@ -24,5 +24,5 @@ class ___FILEBASENAME___ViewController: BaseViewController, ___FILEBASENAME___Vi
 
 
 extension ___FILEBASENAME___ViewController: ___FILEBASENAME___View {
-  
+
 }
