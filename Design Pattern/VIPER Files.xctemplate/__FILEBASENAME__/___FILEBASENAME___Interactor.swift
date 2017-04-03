@@ -18,5 +18,5 @@ class ___FILEBASENAME___Interactor {
 
 
 extension ___FILEBASENAME___Interactor: ___FILEBASENAME___UseCase {
-
+    // TODO: Implement use case methods
 }

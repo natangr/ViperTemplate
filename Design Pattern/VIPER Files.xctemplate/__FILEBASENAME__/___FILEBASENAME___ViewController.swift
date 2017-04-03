@@ -7,9 +7,14 @@
 //
 
 import Foundation
+import UIKit
 
 
 class ___FILEBASENAME___ViewController: BaseViewController {
+
+    // MARK: Static
+
+    static let storyboardName = "___FILEBASENAME___"
 
     // MARK: Properties
 
@@ -24,5 +29,5 @@ class ___FILEBASENAME___ViewController: BaseViewController {
 
 
 extension ___FILEBASENAME___ViewController: ___FILEBASENAME___View {
-
+    // TODO: implement view output methods
 }
