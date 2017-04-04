@@ -14,7 +14,7 @@ VIPER is a backronym for View, Interactor, Presenter, Entity and Router. It’s 
 - Create a new file (`File > New > File` or `⌘N`)
 - Choose `Design Pattern` and `VIPER`
 
-PS: Don't forget to add the ReusableView protocol extension and the UIViewController extension to your project.
+PS: Don't forget to add the ReusableView protocol extension and both the UIViewController and UIStoryboard extensions to your project.
 
 ## Created Files
 - `Contract` -> Contains all the protocols used in VIPER
