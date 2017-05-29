@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 
-class ___FILEBASENAME___ViewController: BaseViewController {
+class ___FILEBASENAME___ViewController: BaseViewController: ReusableView {
 
     // MARK: Static
 
