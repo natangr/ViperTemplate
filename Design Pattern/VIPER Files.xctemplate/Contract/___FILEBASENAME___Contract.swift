@@ -8,7 +8,6 @@
 
 import Foundation
 
-
 protocol ___FILEBASENAME___View: BaseView {
     // TODO: Declare view methods
 }

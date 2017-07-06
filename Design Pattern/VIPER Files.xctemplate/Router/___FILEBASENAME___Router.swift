@@ -9,7 +9,6 @@
 import Foundation
 import UIKit
 
-
 class ___FILEBASENAME___Router {
 
     // MARK: Properties
@@ -19,7 +18,7 @@ class ___FILEBASENAME___Router {
     // MARK: Static methods
 
     static func setupModule() -> ___FILEBASENAME___ViewController {
-        let viewController = UIStoryboard(name: ___FILEBASENAME___ViewController.storyboardName, bundle: nil).instantiateViewController() as ___FILEBASENAME___ViewController
+        let viewController = UIStoryboard.loadViewController() as ___FILEBASENAME___ViewController
         let presenter = ___FILEBASENAME___Presenter()
         let router = ___FILEBASENAME___Router()
         let interactor = ___FILEBASENAME___Interactor()
@@ -37,7 +36,6 @@ class ___FILEBASENAME___Router {
         return viewController
     }
 }
-
 
 extension ___FILEBASENAME___Router: ___FILEBASENAME___Wireframe {
     // TODO: Implement wireframe methods

@@ -2,8 +2,8 @@ import Foundation
 import UIKit
 
 extension UIStoryboard {
-
-    func instantiateViewController<T: UIViewController>() -> T where T: ReusableView {
-        return instantiateViewController(withIdentifier: T.reuseIdentifier) as! T
+    static func loadViewController<T>() -> T where T: StoryboardLoadable, T: UIViewController {
+        // swiftlint:disable:next force_cast
+        return UIStoryboard(name: T.storyboardName(), bundle: nil).instantiateViewController(withIdentifier: T.storyboardIdentifier()) as! T
     }
 }

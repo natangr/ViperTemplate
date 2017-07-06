@@ -8,7 +8,6 @@
 
 import Foundation
 
-
 class ___FILEBASENAME___Presenter {
 
     // MARK: Properties
@@ -18,11 +17,9 @@ class ___FILEBASENAME___Presenter {
     var interactor: ___FILEBASENAME___UseCase?
 }
 
-
 extension ___FILEBASENAME___Presenter: ___FILEBASENAME___Presentation {
     // TODO: implement presentation methods
 }
-
 
 extension ___FILEBASENAME___Presenter: ___FILEBASENAME___InteractorOutput {
     // TODO: implement interactor output methods

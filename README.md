@@ -10,12 +10,14 @@ VIPER is a backronym for View, Interactor, Presenter, Entity and Router. It’s 
 ## Installation
 - [Download VIPER Template](https://github.com/natangr/ViperTemplate/archive/master.zip) or clone the project
 - Copy the `Design Pattern` folder to `~/Library/Developer/Xcode/Templates/File Templates/` or create a symbolic link to that folder.
-- Add the ReusableView protocol extension and the UIStoryboard extension to your project.
+- Add the StoryboardLoadable protocol extension and the UIStoryboard extension to your project.
 
 ## Using the template
 - Start Xcode and create a new group for your VIPER module
 - Create a new file (`File > New > File` or `⌘N`)
 - Choose `Design Pattern` and `VIPER`
+- Type in the name of the module you want to create
+- *Not required*: To create Xcode groups, remove the references to the newly created files and add them back to the project
 
 ## Created Files
 - `Contract` -> Contains all the protocols used in VIPER

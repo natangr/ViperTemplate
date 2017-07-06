@@ -9,12 +9,7 @@
 import Foundation
 import UIKit
 
-
 class ___FILEBASENAME___ViewController: BaseViewController, ReusableView {
-
-    // MARK: Static
-
-    static let storyboardName = "___FILEBASENAME___"
 
     // MARK: Properties
 
@@ -26,7 +21,6 @@ class ___FILEBASENAME___ViewController: BaseViewController, ReusableView {
         super.viewDidLoad()
     }
 }
-
 
 extension ___FILEBASENAME___ViewController: ___FILEBASENAME___View {
     // TODO: implement view output methods
