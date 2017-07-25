@@ -8,13 +8,13 @@
 
 import Foundation
 
-class ___FILEBASENAME___Interactor {
+class ___VARIABLE_ModuleName___Interactor {
 
     // MARK: Properties
 
-    weak var output: ___FILEBASENAME___InteractorOutput?
+    weak var output: ___VARIABLE_ModuleName___InteractorOutput?
 }
 
-extension ___FILEBASENAME___Interactor: ___FILEBASENAME___UseCase {
+extension ___VARIABLE_ModuleName___Interactor: ___VARIABLE_ModuleName___UseCase {
     // TODO: Implement use case methods
 }

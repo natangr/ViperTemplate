@@ -8,19 +8,19 @@
 
 import Foundation
 
-class ___FILEBASENAME___Presenter {
+class ___VARIABLE_ModuleName___Presenter {
 
     // MARK: Properties
 
-    weak var view: ___FILEBASENAME___View?
-    var router: ___FILEBASENAME___Wireframe?
-    var interactor: ___FILEBASENAME___UseCase?
+    weak var view: ___VARIABLE_ModuleName___View?
+    var router: ___VARIABLE_ModuleName___Wireframe?
+    var interactor: ___VARIABLE_ModuleName___UseCase?
 }
 
-extension ___FILEBASENAME___Presenter: ___FILEBASENAME___Presentation {
+extension ___VARIABLE_ModuleName___Presenter: ___VARIABLE_ModuleName___Presentation {
     // TODO: implement presentation methods
 }
 
-extension ___FILEBASENAME___Presenter: ___FILEBASENAME___InteractorOutput {
+extension ___VARIABLE_ModuleName___Presenter: ___VARIABLE_ModuleName___InteractorOutput {
     // TODO: implement interactor output methods
 }
