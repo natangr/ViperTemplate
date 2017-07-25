@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class ___FILEBASENAME___ViewController: BaseViewController, ReusableView {
+class ___FILEBASENAME___ViewController: BaseViewController, StoryboardLoadable {
 
     // MARK: Properties
 
