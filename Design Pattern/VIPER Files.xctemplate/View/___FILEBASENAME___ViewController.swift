@@ -9,11 +9,11 @@
 import Foundation
 import UIKit
 
-class ___FILEBASENAME___ViewController: BaseViewController, StoryboardLoadable {
+class ___VARIABLE_ModuleName___ViewController: BaseViewController, StoryboardLoadable {
 
     // MARK: Properties
 
-    var presenter: ___FILEBASENAME___Presentation?
+    var presenter: ___VARIABLE_ModuleName___Presentation?
 
     // MARK: Lifecycle
 
@@ -22,6 +22,6 @@ class ___FILEBASENAME___ViewController: BaseViewController, StoryboardLoadable {
     }
 }
 
-extension ___FILEBASENAME___ViewController: ___FILEBASENAME___View {
+extension ___VARIABLE_ModuleName___ViewController: ___VARIABLE_ModuleName___View {
     // TODO: implement view output methods
 }
