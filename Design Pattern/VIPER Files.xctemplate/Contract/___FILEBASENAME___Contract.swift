@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol ___VARIABLE_ModuleName___View: BaseView {
+protocol ___VARIABLE_ModuleName___View: class, BaseView {
     // TODO: Declare view methods
 }
 
