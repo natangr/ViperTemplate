@@ -24,7 +24,8 @@ class ___VARIABLE_ModuleName___Router {
         let interactor = ___VARIABLE_ModuleName___Interactor()
 
         viewController.presenter =  presenter
-
+        viewController.modalPresentationStyle = .fullScreen
+        
         presenter.view = viewController
         presenter.router = router
         presenter.interactor = interactor
