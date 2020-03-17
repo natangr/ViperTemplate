@@ -24,6 +24,6 @@ protocol ___VARIABLE_ModuleName___InteractorOutput: class {
     // TODO: Declare interactor output methods
 }
 
-protocol ___VARIABLE_ModuleName___Wireframe: class {
+protocol ___VARIABLE_ModuleName___Wireframe: AlertRoutable {
     // TODO: Declare wireframe methods
 }

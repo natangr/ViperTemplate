@@ -39,5 +39,8 @@ class ___VARIABLE_ModuleName___Router {
 }
 
 extension ___VARIABLE_ModuleName___Router: ___VARIABLE_ModuleName___Wireframe {
+    func toPresent() -> UIViewController {
+        return view ?? UIViewController()
+    }
     // TODO: Implement wireframe methods
 }
