@@ -13,7 +13,7 @@ class ___VARIABLE_ModuleName___ViewController: BaseViewController, StoryboardLoa
 
     // MARK: Properties
 
-    var presenter: ___VARIABLE_ModuleName___Presentation?
+    var presenter: I___VARIABLE_ModuleName___Presenter?
 
     // MARK: Lifecycle
 
@@ -22,6 +22,6 @@ class ___VARIABLE_ModuleName___ViewController: BaseViewController, StoryboardLoa
     }
 }
 
-extension ___VARIABLE_ModuleName___ViewController: ___VARIABLE_ModuleName___View {
+extension ___VARIABLE_ModuleName___ViewController: I___VARIABLE_ModuleName___View {
     // TODO: implement view output methods
 }

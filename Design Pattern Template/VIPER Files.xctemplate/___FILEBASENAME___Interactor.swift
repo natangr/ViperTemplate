@@ -12,9 +12,9 @@ class ___VARIABLE_ModuleName___Interactor {
 
     // MARK: Properties
 
-    weak var output: ___VARIABLE_ModuleName___InteractorOutput?
+    weak var output: I___VARIABLE_ModuleName___InteractorToPresenter?
 }
 
-extension ___VARIABLE_ModuleName___Interactor: ___VARIABLE_ModuleName___UseCase {
+extension ___VARIABLE_ModuleName___Interactor: I___VARIABLE_ModuleName___Interactor {
     // TODO: Implement use case methods
 }

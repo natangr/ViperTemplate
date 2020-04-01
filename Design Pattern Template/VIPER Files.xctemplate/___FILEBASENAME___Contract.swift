@@ -8,22 +8,22 @@
 
 import Foundation
 
-protocol ___VARIABLE_ModuleName___View: BaseView {
+protocol I___VARIABLE_ModuleName___View: BaseView {
     // TODO: Declare view methods
 }
 
-protocol ___VARIABLE_ModuleName___Presentation: class {
+protocol I___VARIABLE_ModuleName___Presenter: class {
     // TODO: Declare presentation methods
 }
 
-protocol ___VARIABLE_ModuleName___UseCase: class {
+protocol I___VARIABLE_ModuleName___Interactor: class {
     // TODO: Declare use case methods
 }
 
-protocol ___VARIABLE_ModuleName___InteractorOutput: class {
+protocol I___VARIABLE_ModuleName___InteractorToPresenter: class {
     // TODO: Declare interactor output methods
 }
 
-protocol ___VARIABLE_ModuleName___Wireframe: AlertRoutable {
+protocol I___VARIABLE_ModuleName___Router: class {
     // TODO: Declare wireframe methods
 }
