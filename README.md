@@ -1,5 +1,5 @@
 # ViperTemplate
-![GitHub version](https://badge.fury.io/gh/natangr%2Fvipertemplate.svg)
+![GitHub version](https://img.shields.io/badge/version-2.3.3-success)
 
 Template to generate VIPER classes on Xcode.
 
