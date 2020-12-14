@@ -24,6 +24,7 @@ class ___VARIABLE_ModuleName___Router {
         let interactor = ___VARIABLE_ModuleName___Interactor()
 
         viewController.presenter =  presenter
+        viewController.modalPresentationStyle = .fullScreen
 
         presenter.view = viewController
         presenter.router = router
@@ -37,6 +38,6 @@ class ___VARIABLE_ModuleName___Router {
     }
 }
 
-extension ___VARIABLE_ModuleName___Router: ___VARIABLE_ModuleName___Wireframe {
+extension ___VARIABLE_ModuleName___Router: I___VARIABLE_ModuleName___Router {
     // TODO: Implement wireframe methods
 }

@@ -1,5 +1,5 @@
 # ViperTemplate
-![GitHub version](https://badge.fury.io/gh/natangr%2Fvipertemplate.svg)
+![GitHub version](https://img.shields.io/badge/version-2.3.3-success)
 
 Template to generate VIPER classes on Xcode.
 
@@ -8,7 +8,7 @@ VIPER is a backronym for View, Interactor, Presenter, Entity and Router. It’s 
 [in this blog post](https://www.ckl.io/blog/ios-project-architecture-using-viper/).
 
 ## Installation
-- [Download VIPER Template](https://github.com/natangr/ViperTemplate/archive/master.zip) or clone the project
+- [Download VIPER Template](https://github.com/ismailkilic/ViperTemplate/archive/master.zip) or clone the project
 - Copy the `Design Pattern` folder to `~/Library/Developer/Xcode/Templates/File Templates/` or create a symbolic link to that folder.
 - Add the StoryboardLoadable protocol extension and the UIStoryboard extension to your project.
 
@@ -25,6 +25,8 @@ VIPER is a backronym for View, Interactor, Presenter, Entity and Router. It’s 
 - `Presenter`
 - `ViewController` (AKA View)
 - `Router`
+- `ViewController.storyboard` 
+
 
 ## Contact
-[Natan Grando](https://github.com/natangr)
+[İsmail KILIÇ](https://github.com/ismailkilic)
