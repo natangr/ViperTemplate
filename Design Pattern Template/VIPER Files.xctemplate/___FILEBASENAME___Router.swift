@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-protocol I___VARIABLE_ModuleName___Router: class {
+protocol I___VARIABLE_ModuleName___Router: AnyObject {
     // TODO: Declare wireframe methods
 }
 
@@ -30,11 +30,11 @@ class ___VARIABLE_ModuleName___Router {
         viewController.presenter =  presenter
         viewController.modalPresentationStyle = .fullScreen
 
-        presenter.view = viewController
+        presenter.view = view
         presenter.router = router
         presenter.interactor = interactor
 
-        router.view = viewController
+        router.view = view
 
         interactor.output = presenter
 

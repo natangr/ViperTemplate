@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol I___VARIABLE_ModuleName___Interactor: class {
+protocol I___VARIABLE_ModuleName___Interactor: AnyObject {
     // TODO: Declare use case methods
 }
 

@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-protocol I___VARIABLE_ModuleName___ViewController: IBaseViewController {
+protocol I___VARIABLE_ModuleName___ViewController: IBaseView {
     // TODO: Declare view methods
 }
 
