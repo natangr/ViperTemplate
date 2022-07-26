@@ -9,6 +9,10 @@
 import Foundation
 import UIKit
 
+protocol I___VARIABLE_ModuleName___ViewController: IBaseViewController {
+    // TODO: Declare view methods
+}
+
 class ___VARIABLE_ModuleName___ViewController: BaseViewController, StoryboardLoadable {
 
     // MARK: Properties

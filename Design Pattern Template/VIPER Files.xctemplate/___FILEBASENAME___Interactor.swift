@@ -8,6 +8,10 @@
 
 import Foundation
 
+protocol I___VARIABLE_ModuleName___Interactor: class {
+    // TODO: Declare use case methods
+}
+
 class ___VARIABLE_ModuleName___Interactor {
 
     // MARK: Properties

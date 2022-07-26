@@ -20,7 +20,6 @@ VIPER is a backronym for View, Interactor, Presenter, Entity and Router. It’s 
 - *Not required*: To create Xcode groups, remove the references to the newly created files and add them back to the project
 
 ## Created Files
-- `Contract` -> Contains all the protocols used in VIPER
 - `Interactor`
 - `Presenter`
 - `ViewController` (AKA View)
@@ -29,4 +28,4 @@ VIPER is a backronym for View, Interactor, Presenter, Entity and Router. It’s 
 
 
 ## Contact
-[İsmail KILIÇ](https://github.com/ismailkilic)
+[İsmail KILIÇ](https://github.com/ilhamicngz)
