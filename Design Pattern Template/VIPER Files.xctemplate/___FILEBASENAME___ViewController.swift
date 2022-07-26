@@ -26,6 +26,6 @@ class ___VARIABLE_ModuleName___ViewController: BaseViewController, StoryboardLoa
     }
 }
 
-extension ___VARIABLE_ModuleName___ViewController: I___VARIABLE_ModuleName___View {
+extension ___VARIABLE_ModuleName___ViewController: I___VARIABLE_ModuleName___ViewController {
     // TODO: implement view output methods
 }

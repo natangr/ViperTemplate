@@ -30,11 +30,11 @@ class ___VARIABLE_ModuleName___Router {
         viewController.presenter =  presenter
         viewController.modalPresentationStyle = .fullScreen
 
-        presenter.view = view
+        presenter.view = viewController
         presenter.router = router
         presenter.interactor = interactor
 
-        router.view = view
+        router.view = viewController
 
         interactor.output = presenter
 
