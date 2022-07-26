@@ -28,4 +28,4 @@ VIPER is a backronym for View, Interactor, Presenter, Entity and Router. It’s 
 
 
 ## Contact
-[İsmail KILIÇ](https://github.com/ilhamicngz)
+[İlhami CENGİZ](https://github.com/ilhamicngz)
