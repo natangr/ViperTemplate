@@ -1,5 +1,5 @@
 # ViperTemplate
-![GitHub version](https://img.shields.io/badge/version-2.4-success)
+![GitHub version](https://img.shields.io/badge/version-2.4.1-success)
 
 Template to generate VIPER classes on Xcode. 
 Junior-friendly version of the template. 
