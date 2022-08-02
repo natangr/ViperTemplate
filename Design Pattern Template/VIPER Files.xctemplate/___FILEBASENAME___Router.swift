@@ -10,7 +10,6 @@ import Foundation
 import UIKit
 
 protocol I___VARIABLE_ModuleName___Router: AnyObject {
-    // TODO: Declare wireframe methods
 }
 
 class ___VARIABLE_ModuleName___Router {
@@ -43,5 +42,4 @@ class ___VARIABLE_ModuleName___Router {
 }
 
 extension ___VARIABLE_ModuleName___Router: I___VARIABLE_ModuleName___Router {
-    // TODO: Implement wireframe methods
 }

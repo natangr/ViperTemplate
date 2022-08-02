@@ -9,7 +9,6 @@
 import Foundation
 
 protocol I___VARIABLE_ModuleName___Presenter: AnyObject {
-    // TODO: Declare presentation methods
 }
 
 class ___VARIABLE_ModuleName___Presenter {
@@ -22,9 +21,7 @@ class ___VARIABLE_ModuleName___Presenter {
 }
 
 extension ___VARIABLE_ModuleName___Presenter: I___VARIABLE_ModuleName___Presenter {
-    // TODO: implement presentation methods
 }
 
 extension ___VARIABLE_ModuleName___Presenter: I___VARIABLE_ModuleName___InteractorToPresenter {
-    // TODO: implement interactor output methods
 }

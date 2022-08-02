@@ -10,7 +10,6 @@ import Foundation
 import UIKit
 
 protocol I___VARIABLE_ModuleName___ViewController: IBaseView {
-    // TODO: Declare view methods
 }
 
 class ___VARIABLE_ModuleName___ViewController: BaseViewController, StoryboardLoadable {
@@ -27,5 +26,4 @@ class ___VARIABLE_ModuleName___ViewController: BaseViewController, StoryboardLoa
 }
 
 extension ___VARIABLE_ModuleName___ViewController: I___VARIABLE_ModuleName___ViewController {
-    // TODO: implement view output methods
 }
