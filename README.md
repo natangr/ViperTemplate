@@ -13,6 +13,7 @@ VIPER is a backronym for View, Interactor, Presenter, Entity and Router. It’s 
 - [Download VIPER Template](https://github.com/ismailkilic/ViperTemplate/archive/master.zip) or clone the project
 - Copy the `Design Pattern` folder to `~/Library/Developer/Xcode/Templates/File Templates/` or create a symbolic link to that folder.
 - Add the StoryboardLoadable protocol extension and the UIStoryboard extension to your project.
+- You can find `required base files` for your project under `extensions folder and commons folder`.
 
 ## Using the template
 - Start Xcode and create a new group for your VIPER module
