@@ -8,11 +8,15 @@
 
 import Foundation
 
+protocol I___VARIABLE_ModuleName___Presenter: AnyObject {
+    // TODO: Declare presentation methods
+}
+
 class ___VARIABLE_ModuleName___Presenter {
 
     // MARK: Properties
 
-    weak var view: I___VARIABLE_ModuleName___View?
+    weak var view: I___VARIABLE_ModuleName___ViewController?
     var router: I___VARIABLE_ModuleName___Router?
     var interactor: I___VARIABLE_ModuleName___Interactor?
 }

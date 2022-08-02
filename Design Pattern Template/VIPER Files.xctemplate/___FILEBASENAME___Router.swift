@@ -9,6 +9,10 @@
 import Foundation
 import UIKit
 
+protocol I___VARIABLE_ModuleName___Router: AnyObject {
+    // TODO: Declare wireframe methods
+}
+
 class ___VARIABLE_ModuleName___Router {
 
     // MARK: Properties
