@@ -9,6 +9,9 @@
 import Foundation
 import UIKit
 
+protocol I___VARIABLE_ModuleName___Router: AnyObject {
+}
+
 class ___VARIABLE_ModuleName___Router {
 
     // MARK: Properties
@@ -24,6 +27,7 @@ class ___VARIABLE_ModuleName___Router {
         let interactor = ___VARIABLE_ModuleName___Interactor()
 
         viewController.presenter =  presenter
+        viewController.modalPresentationStyle = .fullScreen
 
         presenter.view = viewController
         presenter.router = router
@@ -37,6 +41,5 @@ class ___VARIABLE_ModuleName___Router {
     }
 }
 
-extension ___VARIABLE_ModuleName___Router: ___VARIABLE_ModuleName___Wireframe {
-    // TODO: Implement wireframe methods
+extension ___VARIABLE_ModuleName___Router: I___VARIABLE_ModuleName___Router {
 }
